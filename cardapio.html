@@ -30,41 +30,54 @@
         </div>
 
         <form class="container">
-            <div class="container-informaçoes">
-                <label id="nome"> Nome <input type="text" id="nome" class="formularios"></label>
-                <label id="email"> email <input type="email" id="email" class="formularios"> </label>
-                <label id="phone"> Telefone <input type="text" id="phone" class="formularios"> </label>
-                <label id="adress"> Endereço <input type="text" id="adress" class="formularios"> </label>
-            </div>
+            <fieldset class="container-informaçoes">
+                <label id="nome"> Nome <input type="text" id="nome" class="formularios" required placeholder="Digite seu nome"></label>
+                <label id="email"> email <input type="email" id="email" class="formularios" required placeholder="seuemail@dominio.com"> </label>
+                <label id="phone"> Telefone <input type="tel" id="phone" class="formularios" required placeholder="(XX) XXXXX-XXXX "> </label>
+                <label id="adress"> Endereço <input type="text" id="adress" class="formularios" required> </label>
+            </fieldset>
 
             <div>
                 <label for="pedido" class="formularios"> Faça seu pedido aqui</label>
-                <textarea  cols="50" rows="10" id="pedido"></textarea>
+                <textarea  cols="52" rows="10" id="pedido" required></textarea>
             </div>
 
-            <div class="container-radio">
+            <fieldset class="container-radio">
                 <div>
-                    <p class="formularios">Como prefere o contato:</p>
+                    <legend class="formularios">Como prefere o contato:</legend>
                 </div>
-                <div>
+                <div class="container-radio , formularios">
                     <input type="radio" id="email" name="contact" >
                     <label id="email">Email</label>
-                </div>
-                <div>
+                
                     <input type="radio" id="ligaçao" name="contact" >
                     <label id="ligaçao">Ligação</label>
-                </div>
-                <div>
-                    <input type="radio" id="whatsapp" name="contact" >
+                
+                    <input type="radio" id="whatsapp" name="contact"  checked>
                     <label id="whatsapp">Whatsapp</label>
                 </div>   
-            </div>
+            </fildset>
 
             <div class="formularios">
-                <label ><input type ="checkbox">Gostaria de receber aviso de promoções.</label>
+                <label><input type ="checkbox" checked>Gostaria de receber aviso de promoções.</label>
             </div>
-           
-            <div >
+
+           <fieldset class="formularios">
+                <div>
+                    <legend>Qual seu personagem favorito:</legend>
+                </div>
+                <select>
+                    <option> Bob Esponja</option>
+                    <option> Patrick Estrela</option>
+                    <option> Lula Molusco</option>
+                    <option> Gary</option>
+                    <option> Sandy</option>
+                    <option> Seu Sirigueijo</option>
+                </select>
+            </fieldset>
+                
+
+            <div class="container">
                 <input type="submit" name="Enviar" class="input-submit">
             </div>
             
