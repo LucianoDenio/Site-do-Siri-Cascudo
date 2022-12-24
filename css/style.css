@@ -1,0 +1,90 @@
+
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+:root{
+    --color-mostard: #f8cd30;
+    --color-aqua: #00ffff;
+}
+
+header{
+    background-color:white;
+    
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav img{
+    height: 150px;
+    width: 200px;
+}
+nav ul{
+    display: flex;
+}
+nav li {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+nav a {
+    color:var(--color-mostard);
+}
+
+nav a:hover{
+    color: var(--color-aqua);
+    text-decoration: underline;
+}
+
+.imgSiriCascudo{
+    width: 100%;
+    height: 400px;
+}
+
+.containerCard{
+   display: flex; 
+   justify-content: space-evenly;
+   margin: 30px 0 40px 0;
+}
+
+.containerCard img{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+.card{
+    margin-top: 20px;
+    max-width: 300px;
+    border: 2px solid var(--color-mostard);
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-mostard);
+    text-align: center;
+}
+
+.card:hover{
+    border-color: var(--color-aqua);
+    font-size: 25px;
+    color: var(--color-aqua);
+}
+
+footer{
+    background-image: url(ceuComPistaBob.jpg);
+    height: 300px;
+    text-align: center;
+}
+
+.container-footer{
+    font-size: 24px;
+    color: var(--color-mostard);
+}
+
+

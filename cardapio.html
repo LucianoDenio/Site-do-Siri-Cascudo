@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="css/cardapio.css">
+</head>
+<body>
+    <header>
+         <img src="img/0494ea749327465c8894fbf529c336a7.jpg" alt="pessoas comendo">
+         <h1>Um Show de Delícias!!!</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div>
+                <img src="img/cardapio1.jpg" alt="">
+                <img src="img/cardapio2.jpg" alt="">
+            </div>
+            <div>
+                <img src="img/cardapio3.png" alt="">
+                <img src="img/cardapio4.jpg" alt="">
+            </div>
+            <div>
+                <img src="img/cardapio5.jpg" alt="">
+                <img src="img/cardapio6.jpg" alt="">
+                <img src="img/cardapio7.jpg" alt="">
+            </div>
+        </div>
+
+        <form class="container">
+            <div class="container-informaçoes">
+                <label id="nome"> Nome <input type="text" id="nome" class="formularios"></label>
+                <label id="email"> email <input type="email" id="email" class="formularios"> </label>
+                <label id="phone"> Telefone <input type="text" id="phone" class="formularios"> </label>
+                <label id="adress"> Endereço <input type="text" id="adress" class="formularios"> </label>
+            </div>
+
+            <div>
+                <label for="pedido" class="formularios"> Faça seu pedido aqui</label>
+                <textarea  cols="50" rows="10" id="pedido"></textarea>
+            </div>
+
+            <div class="container-radio">
+                <div>
+                    <p class="formularios">Como prefere o contato:</p>
+                </div>
+                <div>
+                    <input type="radio" id="email" name="contact" >
+                    <label id="email">Email</label>
+                </div>
+                <div>
+                    <input type="radio" id="ligaçao" name="contact" >
+                    <label id="ligaçao">Ligação</label>
+                </div>
+                <div>
+                    <input type="radio" id="whatsapp" name="contact" >
+                    <label id="whatsapp">Whatsapp</label>
+                </div>   
+            </div>
+
+            <div class="formularios">
+                <label ><input type ="checkbox">Gostaria de receber aviso de promoções.</label>
+            </div>
+           
+            <div >
+                <input type="submit" name="Enviar" class="input-submit">
+            </div>
+            
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
