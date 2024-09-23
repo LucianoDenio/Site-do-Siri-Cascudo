@@ -51,3 +51,83 @@
     
 </body>
 </html>
+
+*{
+    margin: 0 auto;
+    border: 0;
+}
+
+header{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(47, 47, 252);
+}
+
+header img{
+    width: 100%;
+    height: 500px;
+}
+
+form{
+    margin-top: 100px;
+    width: 500px;
+    background-color:rgba(253, 236, 3, 0.926);
+    border-radius: 40px; 
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container img{
+    width: 400px;
+    height: 400px;
+    padding: 20px 0 0 10px;
+}
+
+.formularios{
+    display: block;
+    width: 400px;
+    height: 30px;
+}
+
+.container-informaçoes input{
+    margin-bottom: 20px;
+}
+
+.container-radio{
+    display: block;
+    align-items: center;
+    padding: 20px 0 ;
+}
+
+select .formularios{
+    margin-bottom: 20px;
+}
+
+.input-submit{
+   width: 200px;
+   height: 50px;
+   margin: 40px 0 20px 0;
+   background-color: rgb(255, 149, 223);
+   border-radius: 40px;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   transition: 1s background;
+}
+
+.input-submit:hover{
+    background-color: rgb(255, 84, 221);
+}
+
+footer{
+    height: 600px;
+    background-color: black;
+}
